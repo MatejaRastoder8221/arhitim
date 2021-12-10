@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#pozadina {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    bottom: 0;
+    background-image: url(../images/pozadina.jpg);
+}
+.cleaner {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.kontejner{
+    margin: 0 auto;
+}
+/* header */
+#logo {
+    float: left;
+}
+#logo img{
+    height: 70px;
+}
+header {
+    height: 75px;
+    background-color: #417154;
+}
+header nav {
+    margin-top: 25px;
+    float: right;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+header nav a {
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+header nav a:hover {
+    color: #D0C59A;
+}
+/* naslovna strana*/
+#glavno_naslovna {
+    width: 100%;
+    height: 350px;
+    margin: 50px auto;
+    background-color: rgba(108, 122, 137, 0.7);
+}
+#glavni_tekst_naslovna{
+    margin-left: 12.5%;
+    display: inline-block;
+    width: 75%;
+}
+#glavni_tekst_naslovna p{
+    font-size: x-large;
+    color: #fff;
+    text-align: center;
+}
+#glavno_naslovna h1{
+    padding: 20px 0;
+    text-align: center;
+}
+.sadrzaj_naslovna {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    background-color: rgba(108, 122, 137, 0.7);
+}
+.slika_naslovna{
+    display: inline-block;
+}
+.slika_naslovna img{
+    width: 400px;
+    height: 300px;
+}
+.tekst_naslovna {
+    display: inline-block;
+    margin: 5% 10%;
+    width: 50%;
+    float: left;
+}
+.tekst_naslovna p, h2, h1{
+    color: #fff;
+    /* footer*/
+}
+.ikonica{
+    float: left;
+    margin-left: 2%;
+}
+.tekstikonica{
+    float: left;
+    width: 210px;
+    margin-left: 10%;
+}
+.tekstikonica img{
+    display: inline-block;
+}
+.tekstikonica p{
+    display: inline-block;
+}
+#copyright p{
+    text-align: center;
+    padding-top: 13px;
+}
+footer p{
+    color: #fff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0px;
+    background-color: #417154;
+    width: 100%;
+  }
+/* Galerija */
+.galerija{
+    background-image: url(../images/pozadinagalerije.jpg);
+    padding: 20px 20px;
+    margin: 20px 0px;
+}
+.galerija h1{
+    text-align: center;
+    color: #000;
+}
+.galerija h2{
+    color: #000;
+}
+.galerija img {
+    display: inline-block;
+    margin: 20px 20px;
+    width: 300px;
+    height: 220px;
+	transform: scale(1);
+    transition: .3s ease-in-out;
+}
+.galerija img:hover {
+	transform: scale(1.2);
+}
+/* O autoru*/
+#slika_autor img{
+    height: 600px;
+    width: 400px;
+}
+#slika_autor{
+    margin: 20px 0px;
+    display: inline-block;
+}
+#tekst_autor{
+    height: 600px;
+    margin: 20px 0px;
+    float: right;
+    width: 60%;
+    background-color: #6D9775;
+}
+#tekst_autor h1{
+    text-align: center;
+    color: #000;
+}
+#tekst_autor p{
+    font-size: large;   
+    margin: 0px 20px;
+}
+/* newsletter */
+.container {
+	width: 700px;
+	margin:0 auto;
+}
+#kontakt input[type="text"], #kontakt input[type="email"], #kontakt input[type="tel"], #kontakt input[type="url"], #kontakt textarea, #kontakt button[type="submit"] 
+{
+    width:75%;
+}
+::placeholder { 
+    color: #fff;
+  }
+#kontakt {
+	background: rgba(108, 122, 137, 0.7);
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color:#417154; 
+}
+#kontakt {
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite;
+  }
+  @keyframes pulse {
+    0% {
+        background-color: rgba(108, 122, 137, 0.7);
+    }
+    50% {
+        background-color: rgba(163, 47, 47, 0.7);
+      }
+    100% {
+        background-color: rgba(108, 122, 137, 0.7);
+    }
+  }
+#kontakt h1 {
+	color: #fff;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+    text-align: center;
+    text-shadow: 0px 0px;
+}
+#kontakt h2 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+    text-align: center; 
+    color: #fff;
+}
+#kontakt h3 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+    margin-left: 13%;
+    color: #fff;
+}
+fieldset {
+	border:none;
+	width: 100%;
+    margin-bottom: 25px;
+}
+#kontakt input[type="text"], #kontakt input[type="email"], #kontakt input[type="tel"], #kontakt input[type="url"],#kontakt input[type="radio"], #kontakt textarea 
+{
+	background:#417154;
+    padding: 10px;  
+    margin-left: 13%;
+    border: 1px solid white;
+    color: #fff;
+}
+.textmove
+{
+    color: #fff;
+    margin-left: 12px;
+    display: inline-flex;
+}
+#kontakt textarea 
+{
+	height:100px;
+	width:70%;
+    resize:none;
+}
+#kontakt button[type="submit"]
+{
+	border:3px solid #417154;
+	background:#417154;
+	color:#FFF; 
+    width: 350px;
+	padding:10px;
+	font-size:15px;
+    margin-left: 175px;
+}
+#kontakt button[type="submit"]:hover {
+	color:#417154;
+    background-color: #fff;
+	-webkit-transition:0.3s ease-in-out;
+	-moz-transition:0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#kontakt input:focus, #kontakt textarea:focus
+{
+	outline:0;
+	border:2px solid #417154;
+    background-color: #fff;
+}
