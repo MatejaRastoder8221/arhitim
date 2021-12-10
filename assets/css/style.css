@@ -54,6 +54,7 @@ header nav a:hover {
 }
 /* naslovna strana*/
 #reklama_naslovna{
+    margin: 0 15%;
     text-align: center;
     animation: pojavi 5s ;
 }
