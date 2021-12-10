@@ -107,8 +107,8 @@ figcaption{
 }
 .tekst_naslovna {
     display: inline-block;
-    margin: 5% 10%;
-    width: 50%;
+    margin: 5% 0;
+    width: 60%;
     float: right;
 }
 .tekst_naslovna p, h2, h1{
